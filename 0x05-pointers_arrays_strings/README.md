@@ -8,3 +8,4 @@
 7-puts_half.c - prints half of a string, followed by a new line.
 8-print_array.c - a function that prints n elements of an array of integers, followed by a new line.
 9-strcpy.c - function that copies the string pointed to by src
+100-atoi.c - convert a string to an integer.
