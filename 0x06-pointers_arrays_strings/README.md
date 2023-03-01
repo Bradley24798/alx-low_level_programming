@@ -1,0 +1,1 @@
+0x06-pointers_arrays_strings - function that concatenates two strings.
