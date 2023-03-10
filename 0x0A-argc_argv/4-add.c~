@@ -1,0 +1,19 @@
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * chartoint - function that checks array of characters for integers
+ * @c: array of characters
+ * Return: 0 if successful, -1 if fails
+ */
+int chartoint(char *c)
+{
+	int num;
+	char *ptr;
+
+	num = strtol(c, &ptr, 10);
+	if (ptr[0])
+		return (-1);
+	return (num);
+}
